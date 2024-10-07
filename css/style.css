@@ -17,9 +17,9 @@ h1{
 
 }
 article{
-  display: flex;
-flex-direction: column;
-align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
   img {
     display: block;
@@ -39,6 +39,17 @@ align-items: center;
   background-color: black;
   border-radius: 0px;
   }
+  #butToddTwo{
+  width: 50%;
+  padding: 0;
+  background-color: black;
+  border-radius: 0px;
+  }
+  #imgToddButtonTwo{
+    width: 100%;
+    border-radius: 0px;
+  }
+
 audio { display: none;}
 
   body {
