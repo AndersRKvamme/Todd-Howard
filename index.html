@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <article>
+
+<h1 class="h1BigText">Todd Howard</h1>
+<img src="./images/Todd_Howard_in_disguise.jpg" alt="Not Todd Howard" width="25%" height="25%">
+<p class="pWorks">It just works!</p>
+
+<audio controls>
+    <source src="./images/itjustworks.mp3" type="audio/mp3">
+    Your browser does not support the audio tag.
+  </audio>
+
+  <audio controls>
+    <source src="./images/16timesthedetail.mp3" type="audio/mp3">
+    Your browser does not support the audio tag.
+  </audio>
+  <!-- How to remove the player, white background? White is button. --> 
+  <button onclick="document.getElementById('player').play()">
+    <img src="./images/space wp.jpg" class="imgToddButton">
+</button> 
+<audio id="player" controls src="./images/itjustworks.mp3">
+    Your browser doesn't support audio elements.
+</audio>
+
+</article>
+</body>
+</html> 
