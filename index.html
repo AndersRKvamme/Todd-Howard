@@ -9,15 +9,15 @@
 <body>
     <article>
 
-<h1 class="h1BigText">Todd Howard</h1>
-<img src="./images/Todd_Howard_in_disguise.jpg" alt="Not Todd Howard" width="25%" height="25%">
-<p class="pWorks">It just works!</p>
+    <h1 class="h1BigText">Todd Howard</h1>
+    <img src="./images/Todd_Howard_in_disguise.jpg" alt="Not Todd Howard" width="25%" height="25%">
+    <p class="pWorks">It just works!</p>
 
   <!-- Width based on original image css settings. Need to be on 100% (25% of original size and 100% of the 25%) --> 
   <button onclick="document.getElementById('player').play()">
     <img src="./images/friendly_old_player.png" class="imgToddButton">
 </button> 
-<audio id="player" controls src="./images/itjustworks.mp3">
+    <audio id="player" controls src="./images/itjustworks.mp3">
     Your browser doesn't support audio elements.
 </audio>
 
@@ -27,6 +27,11 @@
     </button>
     <audio id="playerTwo" controls src ="./images/16timesthedetail.mp3">
     </audio>
+
+<!-- Test av drop down knapp med tekst -->
+<p id="pToddslies"></p>
+<button id="butTRUTH" onclick="document.getElementById('pToddslies').innerHTML = 'Todd lied, it doesnt work. Nothing works. I cant climb that mountain'">Reveal the Truth</button>
+<button id="butTRUTHhide" onclick="document.getElementById('pToddslies').innerHTML = ''">Live in blissful ignorance</button>
 
 
 </article>
