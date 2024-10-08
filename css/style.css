@@ -60,7 +60,6 @@ audio { display: none;
   body {
     background-image: url("/images/space\ wp.jpg");
     background-size:cover;
-    background-color: #cccccc;
    }
    img:hover {
     /* Start the shake animation and make the animation last for 0.5 seconds */
