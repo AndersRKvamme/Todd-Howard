@@ -58,7 +58,7 @@ audio { display: none;
   color: #cccccc;
 }
   body {
-    background-image: url("/images/spacewp.jpg");
+    background-image: url("../images/spacewp.jpg");
     background-size:cover;
    }
    img:hover {
