@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <script defer src="java/java.js"></script>
 </head>
 <body>
     <article>
@@ -22,17 +23,20 @@
     
 </audio>
 
-<!-- Todd Button 2 test drøm en drøm -->
+<!-- Todd Button 2 med lyd -->
 <button id="butToddTwo" onclick="document.getElementById('playerTwo').play()">
     <img src="./images/Todd-Mountain.png" id="imgToddButtonTwo">
     </button>
     <audio id="playerTwo" controls src ="./images/16timesthedetail.mp3">
     </audio>
 
-<!-- Test av drop down knapp med tekst -->
+<!-- En knapp legger tekst inn i "pToddslies", mens den andre fjerner. Kossn lage 1 knapp? -->
 <p id="pToddslies"></p>
-<button id="butTRUTH" onclick="document.getElementById('pToddslies').innerHTML = 'Todd lied, it doesnt work. Nothing works. I cant climb that mountain'">Reveal the Truth</button>
-<button id="butTRUTHhide" onclick="document.getElementById('pToddslies').innerHTML = ''">Live in blissful ignorance</button>
+<!--Tidligere tekst innenfor knapp under
+ onclick="document.getElementById('pToddslies').innerHTML = 'Todd lied, it doesnt work. Nothing works. I cant climb that mountain'" -->
+<button id="butTRUTH" >Reveal the Truth</button>
+<!-- Linje under er tidligere knapp som injected tom tekst på pToddslies
+<button id="butTRUTHhide" onclick="document.getElementById('pToddslies').innerHTML = ''">Live in blissful ignorance</button> -->
 
 
 </article>
